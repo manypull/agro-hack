@@ -1,0 +1,19 @@
+name: fastapi
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn[standard]
+      - pydantic
+      - pydantic-settings
+      - python-dotenv
+      - langchain
+      - langchain_community
+      - httpx
+      - grpcio
+      - grpcio-tools
+      - yandexcloud
